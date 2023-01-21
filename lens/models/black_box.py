@@ -4,7 +4,7 @@ import torch
 from sympy import to_dnf
 from torch.utils.data import Dataset, Subset
 
-from datasets import ImageToConceptAndTaskDataset
+# from datasets import ImageToConceptAndTaskDataset
 from lens.utils.base import NotAvailableError
 from lens.utils.metrics import Accuracy
 from .base import BaseClassifier

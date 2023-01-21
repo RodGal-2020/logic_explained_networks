@@ -1,8 +1,7 @@
 from . import utils
 from . import models
 from . import logic
-from . import utils
-import concept_extractor
+# import concept_extractor # Not available
 
 from ._version import __version__
 
